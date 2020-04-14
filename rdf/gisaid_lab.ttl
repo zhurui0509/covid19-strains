@@ -1,0 +1,820 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix timezone: <https://www.timeanddate.com/worldclock/results.html?query=> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gisaid: <https://stko-gisaid.geog.ucsb.edu/lod/ontology/> .
+@prefix gisaid-strain: <https://stko-gisaid.geog.ucsb.edu/lod/strain/> .
+@prefix gisaid-host: <https://stko-gisaid.geog.ucsb.edu/lod/host/> .
+@prefix gisaid-author: <https://stko-gisaid.geog.ucsb.edu/lod/author/> .
+@prefix gisaid-lab: <https://stko-gisaid.geog.ucsb.edu/lod/lab/> .
+@prefix gisaid-genbankAccession: <https://stko-gisaid.geog.ucsb.edu/lod/genbankAccession/> .
+@prefix gisaid-clade: <https://stko-gisaid.geog.ucsb.edu/lod/clade/> .
+@prefix covid19: <https://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid19-instant: <https://covid.geog.ucsb.edu/lod/instant/> .
+@prefix covid19-city: <https://covid.geog.ucsb.edu/lod/city/> .
+@prefix covid19-region: <https://covid.geog.ucsb.edu/lod/region/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+gisaid-lab:National_Institute_for_Viral_Disease_Control_and_Prevention__China_CDC a gisaid:Lab ;
+	rdfs:label "National Institute for Viral Disease Control and Prevention, China CDC"@en .
+
+gisaid-lab:Institute_of_Pathogen_Biology__Chinese_Academy_of_Medical_Sciences___Peking_Union_Medical_College a gisaid:Lab ;
+	rdfs:label "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"@en .
+
+gisaid-lab:Wuhan_Jinyintan_Hospital a gisaid:Lab ;
+	rdfs:label "Wuhan Jinyintan Hospital"@en .
+
+gisaid-lab:Guangdong_Provincial_Center_for_Diseases_Control_and_Prevention._Guangdong_Provincial_Public_Health a gisaid:Lab ;
+	rdfs:label "Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health"@en .
+
+gisaid-lab:Bamrasnaradura_Hospital a gisaid:Lab ;
+	rdfs:label "Bamrasnaradura Hospital"@en .
+
+gisaid-lab:Zhejiang_Provincial_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Zhejiang Provincial Center for Disease Control and Prevention"@en .
+
+gisaid-lab:IL_Department_of_Public_Health_Chicago_Laboratory a gisaid:Lab ;
+	rdfs:label "IL Department of Public Health Chicago Laboratory"@en .
+
+gisaid-lab:Providence_Regional_Medical_Center a gisaid:Lab ;
+	rdfs:label "Providence Regional Medical Center"@en .
+
+gisaid-lab:The_University_of_Hong_Kong_-_Shenzhen_Hospital a gisaid:Lab ;
+	rdfs:label "The University of Hong Kong - Shenzhen Hospital"@en .
+
+gisaid-lab:Centers_for_Disease_Control__R_O_C___Taiwan_ a gisaid:Lab ;
+	rdfs:label "Centers for Disease Control, R.O.C. (Taiwan)"@en .
+
+gisaid-lab:California_Department_of_Public_Health a gisaid:Lab ;
+	rdfs:label "California Department of Public Health"@en .
+
+gisaid-lab:Arizona_Department_of_Health_Services a gisaid:Lab ;
+	rdfs:label "Arizona Department of Health Services"@en .
+
+gisaid-lab:Guangdong_Provincial_Center_for_Diseases_Control_and_Prevention._Guangdong_Provinical_Public_Health a gisaid:Lab ;
+	rdfs:label "Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health"@en .
+
+gisaid-lab:Guangdong_Provincial_Center_for_Diseases_Control_and_Prevention.Guangdong_Provincial_Institute_of_Public_Health a gisaid:Lab ;
+	rdfs:label "Guangdong Provincial Center for Diseases Control and Prevention;Guangdong Provincial Institute of Public Health"@en .
+
+gisaid-lab:Shenzhen_Key_Laboratory_of_Pathogen_and_Immunity__National_Clinical_Research_Center_for_Infectious_Disease__Shenzhen_Third_People_s_Hospital a gisaid:Lab ;
+	rdfs:label "Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital"@en .
+
+gisaid-lab:Department_of_Infectious_and_Tropical_Diseases__Bichat_Claude_Bernard_Hospital__Paris a gisaid:Lab ;
+	rdfs:label "Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris"@en .
+
+gisaid-lab:General_Hospital_of_Central_Theater_Command_of_People_s_Liberation_Army_of_China a gisaid:Lab ;
+	rdfs:label "General Hospital of Central Theater Command of People's Liberation Army of China"@en .
+
+gisaid-lab:Monash_Medical_Centre a gisaid:Lab ;
+	rdfs:label "Monash Medical Centre"@en .
+
+gisaid-lab:Charite_Universitatsmedizin_Berlin__Institute_of_Virology._Institut_fur_Mikrobiologie_der_Bundeswehr__Munich a gisaid:Lab ;
+	rdfs:label "Charite Universitatsmedizin Berlin, Institute of Virology; Institut fur Mikrobiologie der Bundeswehr, Munich"@en .
+
+gisaid-lab:Hangzhou_Center_for_Disease_and_Control_Microbiology_Lab a gisaid:Lab ;
+	rdfs:label "Hangzhou Center for Disease and Control Microbiology Lab"@en .
+
+gisaid-lab:Singapore_General_Hospital a gisaid:Lab ;
+	rdfs:label "Singapore General Hospital"@en .
+
+gisaid-lab:Respiratory_Virus_Unit__Microbiology_Services_Colindale__Public_Health_England a gisaid:Lab ;
+	rdfs:label "Respiratory Virus Unit, Microbiology Services Colindale, Public Health England"@en .
+
+gisaid-lab:Lapland_Central_Hospital a gisaid:Lab ;
+	rdfs:label "Lapland Central Hospital"@en .
+
+gisaid-lab:Department_of_Virology_III__National_Institute_of_Infectious_Diseases a gisaid:Lab ;
+	rdfs:label "Department of Virology III, National Institute of Infectious Diseases"@en .
+
+gisaid-lab:Korea_Centers_for_Disease_Control___Prevention__KCDC__Center_for_Laboratory_Control_of_Infectious_Diseases_Division_of_Viral_Diseases a gisaid:Lab ;
+	rdfs:label "Korea Centers for Disease Control & Prevention (KCDC) Center for Laboratory Control of Infectious Diseases Division of Viral Diseases"@en .
+
+gisaid-lab:Hangzhou_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Hangzhou Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Centre_for_Infectious_Diseases_and_Microbiology_Laboratory_Services a gisaid:Lab ;
+	rdfs:label "Centre for Infectious Diseases and Microbiology Laboratory Services"@en .
+
+gisaid-lab:Pathology_Queensland a gisaid:Lab ;
+	rdfs:label "Pathology Queensland"@en .
+
+gisaid-lab:KU_Leuven__Clinical_and_Epidemiological_Virology a gisaid:Lab ;
+	rdfs:label "KU Leuven, Clinical and Epidemiological Virology"@en .
+
+gisaid-lab:National_Centre_for_Infectious_Diseases a gisaid:Lab ;
+	rdfs:label "National Centre for Infectious Diseases"@en .
+
+gisaid-lab:California_Department_of_Health a gisaid:Lab ;
+	rdfs:label "California Department of Health"@en .
+
+gisaid-lab:Sorbonne_Universite__Inserm_et_Assistance_Publique-Hopitaux_de_Paris__Pitie_Salpetriere_ a gisaid:Lab ;
+	rdfs:label "Sorbonne Universite, Inserm et Assistance Publique-Hopitaux de Paris (Pitie Salpetriere)"@en .
+
+gisaid-lab:Yongchuan_District_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Yongchuan District Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Zhongxian_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Zhongxian Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Department_of_Laboratory_Medicine__National_Taiwan_University_Hospital a gisaid:Lab ;
+	rdfs:label "Department of Laboratory Medicine, National Taiwan University Hospital"@en .
+
+gisaid-lab:Dept__of_Virology_III__National_Institute_of_Infectious_Diseases a gisaid:Lab ;
+	rdfs:label "Dept. of Virology III, National Institute of Infectious Diseases"@en .
+
+gisaid-lab:National_Influenza_Center_-_National_Institute_of_Hygiene_and_Epidemiology__NIHE_ a gisaid:Lab ;
+	rdfs:label "National Influenza Center - National Institute of Hygiene and Epidemiology (NIHE)"@en .
+
+gisaid-lab:Wisconsin_Department_of_Health_Services a gisaid:Lab ;
+	rdfs:label "Wisconsin Department of Health Services"@en .
+
+gisaid-lab:Serology__Virology_and_OTDS_Laboratories__SAViD___NSW_Health_Pathology_Randwick a gisaid:Lab ;
+	rdfs:label "Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology Randwick"@en .
+
+gisaid-lab:Wuhan_Fourth_Hospital a gisaid:Lab ;
+	rdfs:label "Wuhan Fourth Hospital"@en .
+
+gisaid-lab:Massachusetts_Department_of_Public_Health a gisaid:Lab ;
+	rdfs:label "Massachusetts Department of Public Health"@en .
+
+gisaid-lab:National_Influenza_Centre__National_Public_Health_Laboratory__Kathmandu__Nepal a gisaid:Lab ;
+	rdfs:label "National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal"@en .
+
+gisaid-lab:CNR_Virus_des_Infections_Respiratoires_-_France_SUD a gisaid:Lab ;
+	rdfs:label "CNR Virus des Infections Respiratoires - France SUD"@en .
+
+gisaid-lab:Dept__of_Pathology__National_Institute_of_Infectious_Diseases a gisaid:Lab ;
+	rdfs:label "Dept. of Pathology, National Institute of Infectious Diseases"@en .
+
+gisaid-lab:Singapore_General_Hospital__Molecular_Laboratory__Division_of_Pathology a gisaid:Lab ;
+	rdfs:label "Singapore General Hospital, Molecular Laboratory, Division of Pathology"@en .
+
+gisaid-lab:INMI_Lazzaro_Spallanzani_IRCCS a gisaid:Lab ;
+	rdfs:label "INMI Lazzaro Spallanzani IRCCS"@en .
+
+gisaid-lab:National_Public_Health_Laboratory__National_Centre_for_Infectious_Diseases a gisaid:Lab ;
+	rdfs:label "National Public Health Laboratory, National Centre for Infectious Diseases"@en .
+
+gisaid-lab:National_Public_Health_Laboratory a gisaid:Lab ;
+	rdfs:label "National Public Health Laboratory"@en .
+
+gisaid-lab:Fujian_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Fujian Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Virology_Unit__Institut_Pasteur_du_Cambodge_ a gisaid:Lab ;
+	rdfs:label "Virology Unit, Institut Pasteur du Cambodge."@en .
+
+gisaid-lab:Laboratory_Medicine a gisaid:Lab ;
+	rdfs:label "Laboratory Medicine"@en .
+
+gisaid-lab:Taiwan_Centers_for_Disease_Control a gisaid:Lab ;
+	rdfs:label "Taiwan Centers for Disease Control"@en .
+
+gisaid-lab:NHC_Key_laboratory_of_Enteric_Pathogenic_Microbiology__Institute_of_Pathogenic_Microbiology a gisaid:Lab ;
+	rdfs:label "NHC Key laboratory of Enteric Pathogenic Microbiology, Institute of Pathogenic Microbiology"@en .
+
+gisaid-lab:Texas_Department_of_State_Health_Services a gisaid:Lab ;
+	rdfs:label "Texas Department of State Health Services"@en .
+
+gisaid-lab:Hong_Kong_Department_of_Health a gisaid:Lab ;
+	rdfs:label "Hong Kong Department of Health"@en .
+
+gisaid-lab:Division_of_Viral_Diseases__Center_for_Laboratory_Control_of_Infectious_Diseases__Korea_Centers_for_Diseases_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Division of Viral Diseases, Center for Laboratory Control of Infectious Diseases, Korea Centers for Diseases Control and Prevention"@en .
+
+gisaid-lab:State_Health_Office_Baden-Wuerttemberg a gisaid:Lab ;
+	rdfs:label "State Health Office Baden-Wuerttemberg"@en .
+
+gisaid-lab:Hospital_Israelita_Albert_Einstein a gisaid:Lab ;
+	rdfs:label "Hospital Israelita Albert Einstein"@en .
+
+gisaid-lab:BCCDC_Public_Health_Laboratory a gisaid:Lab ;
+	rdfs:label "BCCDC Public Health Laboratory"@en .
+
+gisaid-lab:Washington_State_Department_of_Health a gisaid:Lab ;
+	rdfs:label "Washington State Department of Health"@en .
+
+gisaid-lab:HUS_Diagnostiikkakeskus__Hallinto a gisaid:Lab ;
+	rdfs:label "HUS Diagnostiikkakeskus, Hallinto"@en .
+
+gisaid-lab:Instituto_Nacional_de_Enfermedades_Respiratorias a gisaid:Lab ;
+	rdfs:label "Instituto Nacional de Enfermedades Respiratorias"@en .
+
+gisaid-lab:Department_of_Infectious_Diseases__Istituto_Superiore_di_Sanita__Roma___Italy a gisaid:Lab ;
+	rdfs:label "Department of Infectious Diseases, Istituto Superiore di Sanita, Roma , Italy"@en .
+
+gisaid-lab:Department_of_Infectious_Diseases__Istituto_Superiore_di_Sanita__Rome__Italy a gisaid:Lab ;
+	rdfs:label "Department of Infectious Diseases, Istituto Superiore di Sanita, Rome, Italy"@en .
+
+gisaid-lab:The_Central_Hospital_Of_Wuhan a gisaid:Lab ;
+	rdfs:label "The Central Hospital Of Wuhan"@en .
+
+gisaid-lab:Union_Hospital_of_Tongji_Medical_College__Huazhong_University_of_Science_and_Technology a gisaid:Lab ;
+	rdfs:label "Union Hospital of Tongji Medical College, Huazhong University of Science and Technology"@en .
+
+gisaid-lab:CR_WISCO_GENERAL_HOSPITAL a gisaid:Lab ;
+	rdfs:label "CR&WISCO GENERAL HOSPITAL"@en .
+
+gisaid-lab:Wuhan_Lung_Hospital a gisaid:Lab ;
+	rdfs:label "Wuhan Lung Hospital"@en .
+
+gisaid-lab:Tianmen_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Tianmen Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Public_Health_Ontario_Laboratory a gisaid:Lab ;
+	rdfs:label "Public Health Ontario Laboratory"@en .
+
+gisaid-lab:Department_of_Microbiology__Institute_for_Viral_Diseases__College_of_Medicine__Korea_University a gisaid:Lab ;
+	rdfs:label "Department of Microbiology, Institute for Viral Diseases, College of Medicine, Korea University"@en .
+
+gisaid-lab:Department_of_Internal_Medicine__Triemli_Hospital a gisaid:Lab ;
+	rdfs:label "Department of Internal Medicine, Triemli Hospital"@en .
+
+gisaid-lab:Klinik_Hirslanden_Zurich a gisaid:Lab ;
+	rdfs:label "Klinik Hirslanden Zurich"@en .
+
+gisaid-lab:Division_of_Infectious_Diseases__University_Hospital_Zurich a gisaid:Lab ;
+	rdfs:label "Division of Infectious Diseases, University Hospital Zurich"@en .
+
+gisaid-lab:Harborview_Medical_Center a gisaid:Lab ;
+	rdfs:label "Harborview Medical Center"@en .
+
+gisaid-lab:West_of_Scotland_Specialist_Virology_Centre__NHSGGC a gisaid:Lab ;
+	rdfs:label "West of Scotland Specialist Virology Centre, NHSGGC"@en .
+
+gisaid-lab:Washington_State_Public_Health_Lab a gisaid:Lab ;
+	rdfs:label "Washington State Public Health Lab"@en .
+
+gisaid-lab:Seattle_Flu_Study a gisaid:Lab ;
+	rdfs:label "Seattle Flu Study"@en .
+
+gisaid-lab:Department_of_Pathology__Toshima_Hospital a gisaid:Lab ;
+	rdfs:label "Department of Pathology, Toshima Hospital"@en .
+
+gisaid-lab:Department_of_microbiology_laboratory_Anhui_Provincial_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Department of microbiology laboratory,Anhui Provincial Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Valley_Medical_Center a gisaid:Lab ;
+	rdfs:label "Valley Medical Center"@en .
+
+gisaid-lab:Center_of_Medical_Microbiology__Virology__and_Hospital_Hygiene__University_of_Duesseldorf a gisaid:Lab ;
+	rdfs:label "Center of Medical Microbiology, Virology, and Hospital Hygiene, University of Duesseldorf"@en .
+
+gisaid-lab:Laboratorio_di_Microbiologia_e_Virologia__Universita_Vita-Salute_San_Raffaele__Milano a gisaid:Lab ;
+	rdfs:label "Laboratorio di Microbiologia e Virologia, Universita Vita-Salute San Raffaele, Milano"@en .
+
+gisaid-lab:Auckland_Hospital a gisaid:Lab ;
+	rdfs:label "Auckland Hospital"@en .
+
+gisaid-lab:Division_of_Infectious_Diseases__Department_of_Internal_Medicine__Korea_University_College_of_Medicine a gisaid:Lab ;
+	rdfs:label "Division of Infectious Diseases, Department of Internal Medicine, Korea University College of Medicine"@en .
+
+gisaid-lab:Indian_Council_of_Medical_Research_-_National_Institute_of_Virology a gisaid:Lab ;
+	rdfs:label "Indian Council of Medical Research - National Institute of Virology"@en .
+
+gisaid-lab:Indian_Council_of_Medical_Research-National_Institute_of_Virology a gisaid:Lab ;
+	rdfs:label "Indian Council of Medical Research-National Institute of Virology"@en .
+
+gisaid-lab:Centre_for_Human_and_Zoonotic_Virology__CHAZVY___College_of_Medicine_University_of_Lagos_Lagos_University_Teaching_Hospital__LUTH___part_of_the_Laboratory_Network_of_the_Nigeria_Centre_for_Disease_Control__NCDC_ a gisaid:Lab ;
+	rdfs:label "Centre for Human and Zoonotic Virology (CHAZVY), College of Medicine University of Lagos/Lagos University Teaching Hospital (LUTH), part of the Laboratory Network of the Nigeria Centre for Disease Control (NCDC)"@en .
+
+gisaid-lab:Wales_Specialist_Virology_Centre a gisaid:Lab ;
+	rdfs:label "Wales Specialist Virology Centre"@en .
+
+gisaid-lab:UW_Virology_Lab a gisaid:Lab ;
+	rdfs:label "UW Virology Lab"@en .
+
+gisaid-lab:MHC_West-Brabant a gisaid:Lab ;
+	rdfs:label "MHC West-Brabant"@en .
+
+gisaid-lab:Foundation_Pamm a gisaid:Lab ;
+	rdfs:label "Foundation Pamm"@en .
+
+gisaid-lab:MHC_Gooi___Vechtstreek a gisaid:Lab ;
+	rdfs:label "MHC Gooi & Vechtstreek"@en .
+
+gisaid-lab:MHC_Drente a gisaid:Lab ;
+	rdfs:label "MHC Drente"@en .
+
+gisaid-lab:RIVM a gisaid:Lab ;
+	rdfs:label "RIVM"@en .
+
+gisaid-lab:MHC_Brabant_Zuidoost a gisaid:Lab ;
+	rdfs:label "MHC Brabant Zuidoost"@en .
+
+gisaid-lab:MHC_Kennemerland a gisaid:Lab ;
+	rdfs:label "MHC Kennemerland"@en .
+
+gisaid-lab:Dienst_Gezondheid___Jeugd_Zuid-Holland_Zuid a gisaid:Lab ;
+	rdfs:label "Dienst Gezondheid & Jeugd Zuid-Holland Zuid"@en .
+
+gisaid-lab:ErasmusMC a gisaid:Lab ;
+	rdfs:label "ErasmusMC"@en .
+
+gisaid-lab:MHC_Haaglanden a gisaid:Lab ;
+	rdfs:label "MHC Haaglanden"@en .
+
+gisaid-lab:MHC_Rotterdam-Rijnmond a gisaid:Lab ;
+	rdfs:label "MHC Rotterdam-Rijnmond"@en .
+
+gisaid-lab:Foundation_Elisabeth-Tweesteden_Ziekenhuis a gisaid:Lab ;
+	rdfs:label "Foundation Elisabeth-Tweesteden Ziekenhuis"@en .
+
+gisaid-lab:MHC_Utrecht a gisaid:Lab ;
+	rdfs:label "MHC Utrecht"@en .
+
+gisaid-lab:MHC_Flevoland a gisaid:Lab ;
+	rdfs:label "MHC Flevoland"@en .
+
+gisaid-lab:Laboratoire_National_de_Sante a gisaid:Lab ;
+	rdfs:label "Laboratoire National de Sante"@en .
+
+gisaid-lab:Centre_for_Infectious_Diseases_and_Microbiology_-_Public_Health a gisaid:Lab ;
+	rdfs:label "Centre for Infectious Diseases and Microbiology - Public Health"@en .
+
+gisaid-lab:Centre_for_Infectious_Diseases_and_Microbiology-_Public_Health a gisaid:Lab ;
+	rdfs:label "Centre for Infectious Diseases and Microbiology- Public Health"@en .
+
+gisaid-lab:Department_of_Virology_and_Immunology__University_of_Helsinki_and_Helsinki_University_Hospital__Huslab_Finland a gisaid:Lab ;
+	rdfs:label "Department of Virology and Immunology, University of Helsinki and Helsinki University Hospital, Huslab Finland"@en .
+
+gisaid-lab:Centro_Hospital_do_Porto__E_P_E__-_H__Geral_de_Santo_Antonio a gisaid:Lab ;
+	rdfs:label "Centro Hospital do Porto, E.P.E. - H. Geral de Santo Antonio"@en .
+
+gisaid-lab:Centro_Hospitalar_e_Universitario_de_Sao_Joao__Porto a gisaid:Lab ;
+	rdfs:label "Centro Hospitalar e Universitario de Sao Joao, Porto"@en .
+
+gisaid-lab:Guangdong_Provincial_Institution_of_Public_Health__Guangdong_Provinical_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Guangdong Provincial Institution of Public Health, Guangdong Provinical Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Laboratoire_de_Virologie__HUG a gisaid:Lab ;
+	rdfs:label "Laboratoire de Virologie, HUG"@en .
+
+gisaid-lab:Hospital_Sao_Joaquim_Beneficencia_Portuguesa a gisaid:Lab ;
+	rdfs:label "Hospital Sao Joaquim Beneficencia Portuguesa"@en .
+
+gisaid-lab:LACEN_RJ_-_Laboratorio_Central_de_Saude_Publica_Noel_Nutels a gisaid:Lab ;
+	rdfs:label "LACEN RJ - Laboratorio Central de Saude Publica Noel Nutels"@en .
+
+gisaid-lab:Dutch_COVID-19_response_team a gisaid:Lab ;
+	rdfs:label "Dutch COVID-19 response team"@en .
+
+gisaid-lab:MSHS_Clinical_Microbiology_Laboratories a gisaid:Lab ;
+	rdfs:label "MSHS Clinical Microbiology Laboratories"@en .
+
+gisaid-lab:The_National_Institute_of_Public_Health_Center_for_Epidemiology_and_Microbiology a gisaid:Lab ;
+	rdfs:label "The National Institute of Public Health Center for Epidemiology and Microbiology"@en .
+
+gisaid-lab:Servicio_Microbiologia__Hospital_Clinico_Universitario__Valencia_ a gisaid:Lab ;
+	rdfs:label "Servicio Microbiologia. Hospital Clinico Universitario. Valencia."@en .
+
+gisaid-lab:Virology_Department__Sheffield_Teaching_Hospitals_NHS_Foundation_Trust a gisaid:Lab ;
+	rdfs:label "Virology Department, Sheffield Teaching Hospitals NHS Foundation Trust"@en .
+
+gisaid-lab:Tai_Lung_Veterinary_Laboratory__Agriculture__Fisheries_and_Conservation_Department a gisaid:Lab ;
+	rdfs:label "Tai Lung Veterinary Laboratory, Agriculture, Fisheries and Conservation Department"@en .
+
+gisaid-lab:Bundeswehr_Institute_of_Microbiology a gisaid:Lab ;
+	rdfs:label "Bundeswehr Institute of Microbiology"@en .
+
+gisaid-lab:Hospital_de_Talca__Chile a gisaid:Lab ;
+	rdfs:label "Hospital de Talca, Chile"@en .
+
+gisaid-lab:Clinica_Alemana_de_Santiago__Chile a gisaid:Lab ;
+	rdfs:label "Clinica Alemana de Santiago, Chile"@en .
+
+gisaid-lab:Clinica_Santa_Maria__Santiago__Chile a gisaid:Lab ;
+	rdfs:label "Clinica Santa Maria, Santiago, Chile"@en .
+
+gisaid-lab:UCD_National_Virus_Reference_Laboratory a gisaid:Lab ;
+	rdfs:label "UCD National Virus Reference Laboratory"@en .
+
+gisaid-lab:Minnesota_Department_of_Health__Public_Health_Laboratory a gisaid:Lab ;
+	rdfs:label "Minnesota Department of Health, Public Health Laboratory"@en .
+
+gisaid-lab:Servicio_Microbiologia__Hospital_Clinico_Universitario__Valencia a gisaid:Lab ;
+	rdfs:label "Servicio Microbiologia, Hospital Clinico Universitario, Valencia"@en .
+
+gisaid-lab:Laboratoire_de_Virologie_Institut_de_Virologie_-_INSERM_U_1109_Hopitaux_Universitaires_de_Strasbourg a gisaid:Lab ;
+	rdfs:label "Laboratoire de Virologie Institut de Virologie - INSERM U 1109 Hopitaux Universitaires de Strasbourg"@en .
+
+gisaid-lab:Centre_Hositalier_Universitaire_de_Rouen_Laboratoire_de_Virologie a gisaid:Lab ;
+	rdfs:label "Centre Hositalier Universitaire de Rouen Laboratoire de Virologie"@en .
+
+gisaid-lab:Centre_Hospitalier_Regional_Universitaire_de_Nantes_Laboratoire_de_Virologie a gisaid:Lab ;
+	rdfs:label "Centre Hospitalier Regional Universitaire de Nantes Laboratoire de Virologie"@en .
+
+gisaid-lab:Centre_Hospitalier_Compiegne_Laboratoire_de_Biologie a gisaid:Lab ;
+	rdfs:label "Centre Hospitalier Compiegne Laboratoire de Biologie"@en .
+
+gisaid-lab:Hopital_Robert_Debre_Laboratoire_de_Virologie a gisaid:Lab ;
+	rdfs:label "Hopital Robert Debre Laboratoire de Virologie"@en .
+
+gisaid-lab:Centre_Hospitalier_Rene_Dubois_Laboratoire_de_Microbiologie_-_Bat_A a gisaid:Lab ;
+	rdfs:label "Centre Hospitalier Rene Dubois Laboratoire de Microbiologie - Bat A"@en .
+
+gisaid-lab:NYU_Langone_Health a gisaid:Lab ;
+	rdfs:label "NYU Langone Health"@en .
+
+gisaid-lab:Viral_Respiratory_Lab__National_Institute_for_Biomedical_Research__INRB_ a gisaid:Lab ;
+	rdfs:label "Viral Respiratory Lab, National Institute for Biomedical Research (INRB)"@en .
+
+gisaid-lab:Andersen_Lab__The_Scripps_Research_Institute a gisaid:Lab ;
+	rdfs:label "Andersen Lab, The Scripps Research Institute"@en .
+
+gisaid-lab:State_Key_Laboratory_of_Respiratory_Disease__National_Clinical_Research_Center_for_Respiratory_Disease__Guangzhou_Institute_of_Respiratory_Health__the_First_Affiliated_Hospital_of_Guangzhou_Medical_University a gisaid:Lab ;
+	rdfs:label "State Key Laboratory of Respiratory Disease, National Clinical Research Center for Respiratory Disease, Guangzhou Institute of Respiratory Health, the First Affiliated Hospital of Guangzhou Medical University"@en .
+
+gisaid-lab:Shandong_Provincial_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Shandong Provincial Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Regional_Virus_Laboratory__Belfast a gisaid:Lab ;
+	rdfs:label "Regional Virus Laboratory, Belfast"@en .
+
+gisaid-lab:Laboratorio_Central_de_Saude_Publica_Professor_Goncalo_Moniz__LACEN_BA a gisaid:Lab ;
+	rdfs:label "Laboratorio Central de Saude Publica Professor Goncalo Moniz  LACEN/BA"@en .
+
+gisaid-lab:LACEN_ES_-_Laboratorio_Central_de_Saude_Publica_do_Espirito_Santo a gisaid:Lab ;
+	rdfs:label "LACEN/ES - Laboratorio Central de Saude Publica do Espirito Santo"@en .
+
+gisaid-lab:Gorgas_Memorial_Institute_for_Health_Studies a gisaid:Lab ;
+	rdfs:label "Gorgas Memorial Institute for Health Studies"@en .
+
+gisaid-lab:KU_Leuven__Clincal_and_Epidemiological_Virology a gisaid:Lab ;
+	rdfs:label "KU Leuven, Clincal and Epidemiological Virology"@en .
+
+gisaid-lab:Hopitaux_universitaires_de_Geneve_Laboratoire_de_Virologie a gisaid:Lab ;
+	rdfs:label "Hopitaux universitaires de Geneve Laboratoire de Virologie"@en .
+
+gisaid-lab:Utah_Public_Health_Laboratory a gisaid:Lab ;
+	rdfs:label "Utah Public Health Laboratory"@en .
+
+gisaid-lab:Virology_Department__Royal_Infirmary_of_Edinburgh__NHS_Lothian a gisaid:Lab ;
+	rdfs:label "Virology Department, Royal Infirmary of Edinburgh, NHS Lothian"@en .
+
+gisaid-lab:R__G__Lugar_Center_for_Public_Health_Research___National_Center_for_Disease_Control_and_Public_Health__NCDC__of_Georgia_ a gisaid:Lab ;
+	rdfs:label "R. G. Lugar Center for Public Health Research,  National Center for Disease Control and Public Health (NCDC) of Georgia."@en .
+
+gisaid-lab:Department_of_Virus_and_Microbiological_Special_diagnostics__Statens_Serum_Institut__Copenhagen__Denmark_ a gisaid:Lab ;
+	rdfs:label "Department of Virus and Microbiological Special diagnostics, Statens Serum Institut, Copenhagen, Denmark."@en .
+
+gisaid-lab:Hopital_Instruction_des_Armees_-_BEGIN a gisaid:Lab ;
+	rdfs:label "Hopital Instruction des Armees - BEGIN"@en .
+
+gisaid-lab:Laboratory_of_Molecular_Virology__Pontificia_Universidad_Catolica_de_Chile a gisaid:Lab ;
+	rdfs:label "Laboratory of Molecular Virology, Pontificia Universidad Catolica de Chile"@en .
+
+gisaid-lab:State_Key_Laboratory_for_Diagnosis_and_Treatment_of_Infectious_Diseases__National_Clinical_Research_Center_for_Infectious_Diseases__First_Affiliated_Hospital__Zhejiang_University_School_of_Medicine__Hangzhou__China__310003 a gisaid:Lab ;
+	rdfs:label "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China. 310003"@en .
+
+gisaid-lab:National_Influenza_Center_-_Instituto_Adolfo_Lutz a gisaid:Lab ;
+	rdfs:label "National Influenza Center - Instituto Adolfo Lutz"@en .
+
+gisaid-lab:Laboiratorio_Fleury a gisaid:Lab ;
+	rdfs:label "Laboiratorio Fleury"@en .
+
+gisaid-lab:State_Key_Laboratory_for_Diagnosis_and_Treatment_of_Infectious_Diseases__National_Clinical_Research_Center_for_Infectious_Diseases__First_Affiliated_Hospital__Zhejiang_University_School_of_Medicine__Hangzhou__China_310003 a gisaid:Lab ;
+	rdfs:label "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China 310003"@en .
+
+gisaid-lab:Department_of_Microbiology__Faculty_of_Medicine__The_Chinese_University_of_Hong_Kong__Hong_Kong_SAR__China a gisaid:Lab ;
+	rdfs:label "Department of Microbiology, Faculty of Medicine, The Chinese University of Hong Kong, Hong Kong SAR, China"@en .
+
+gisaid-lab:Shanghai_Public_Health_Clinical_Center__Shanghai_Medical_College__Fudan_University a gisaid:Lab ;
+	rdfs:label "Shanghai Public Health Clinical Center, Shanghai Medical College, Fudan University"@en .
+
+gisaid-lab:Victorian_Infectious_Diseases_Reference_Laboratory__VIDRL_ a gisaid:Lab ;
+	rdfs:label "Victorian Infectious Diseases Reference Laboratory (VIDRL)"@en .
+
+gisaid-lab:Connecticut_State_Department_of_Public_Health a gisaid:Lab ;
+	rdfs:label "Connecticut State Department of Public Health"@en .
+
+gisaid-lab:Yale_Clinical_Virology_Laboratory a gisaid:Lab ;
+	rdfs:label "Yale Clinical Virology Laboratory"@en .
+
+gisaid-lab:Virological_Research_Group__Szentagothai_Research_Centre__University_of_Pecs a gisaid:Lab ;
+	rdfs:label "Virological Research Group, Szentagothai Research Centre, University of Pecs"@en .
+
+gisaid-lab:National_Influenza_Center__National_Institute_of_Hygiene_and_Epidemiology__NIHE_ a gisaid:Lab ;
+	rdfs:label "National Influenza Center, National Institute of Hygiene and Epidemiology (NIHE)"@en .
+
+gisaid-lab:Clinical_Microbiology_Lab a gisaid:Lab ;
+	rdfs:label "Clinical Microbiology Lab"@en .
+
+gisaid-lab:Virology_laboratory_Ministry_of_Health_Kuwait_sequenced_at_Dasman_Diabetes_Institute a gisaid:Lab ;
+	rdfs:label "Virology laboratory Ministry of Health Kuwait sequenced at Dasman Diabetes Institute"@en .
+
+gisaid-lab:Servicio_de_Microbiologia__Consorcio_Hospital_General_Universitario_de_Valencia a gisaid:Lab ;
+	rdfs:label "Servicio de Microbiologia. Consorcio Hospital General Universitario de Valencia"@en .
+
+gisaid-lab:ViroGenetics_-_BSL3_Laboratory_of_Virology._Human_Genome_Variation_Research_Group___Genomics_Centre_MCB._Bioinformatics_Research_Group__Department_of_Virology a gisaid:Lab ;
+	rdfs:label "ViroGenetics - BSL3 Laboratory of Virology; Human Genome Variation Research Group & Genomics Centre MCB; Bioinformatics Research Group  Department of Virology"@en .
+
+gisaid-lab:University_of_Wisconsin-Madison_AIDS_Vaccine_Research_Laboratory a gisaid:Lab ;
+	rdfs:label "University of Wisconsin-Madison AIDS Vaccine Research Laboratory"@en .
+
+gisaid-lab:University_of_Wisconsin-Madison_AIDS_Vaccine_Research_Laboratories a gisaid:Lab ;
+	rdfs:label "University of Wisconsin-Madison AIDS Vaccine Research Laboratories"@en .
+
+gisaid-lab:CH_Jean_de_Navarre_Laboratoire_de_Biologie a gisaid:Lab ;
+	rdfs:label "CH Jean de Navarre Laboratoire de Biologie"@en .
+
+gisaid-lab:Institut_Medico_legal-_Hop_R__Poincare a gisaid:Lab ;
+	rdfs:label "Institut Medico legal- Hop R. Poincare"@en .
+
+gisaid-lab:LABM_GH_nord_Essonne a gisaid:Lab ;
+	rdfs:label "LABM GH nord Essonne"@en .
+
+gisaid-lab:Hopital_franco_britannique_-_Service_des_Urgences a gisaid:Lab ;
+	rdfs:label "Hopital franco britannique - Service des Urgences"@en .
+
+gisaid-lab:CHRU_Pontchaillou_-_Laboratoire_de_Virologie a gisaid:Lab ;
+	rdfs:label "CHRU Pontchaillou - Laboratoire de Virologie"@en .
+
+gisaid-lab:Public_Health_Laboratory a gisaid:Lab ;
+	rdfs:label "Public Health Laboratory"@en .
+
+gisaid-lab:Public_Health_Laboratory__Saudi_CDC a gisaid:Lab ;
+	rdfs:label "Public Health Laboratory, Saudi CDC"@en .
+
+gisaid-lab:Saitama_Medical_University_Hospital a gisaid:Lab ;
+	rdfs:label "Saitama Medical University Hospital"@en .
+
+gisaid-lab:Saitama_Medical_University a gisaid:Lab ;
+	rdfs:label "Saitama Medical University"@en .
+
+gisaid-lab:Wellington_Hospital a gisaid:Lab ;
+	rdfs:label "Wellington Hospital"@en .
+
+gisaid-lab:Dasman_Diabetes_Institute_and_Virology_Laboratory_Ministry_of_Health a gisaid:Lab ;
+	rdfs:label "Dasman Diabetes Institute and Virology Laboratory Ministry of Health"@en .
+
+gisaid-lab:Dasman_Diabetes_Institute a gisaid:Lab ;
+	rdfs:label "Dasman Diabetes Institute"@en .
+
+gisaid-lab:Wuhan_Institute_of_Virology__Chinese_Academy_of_Sciences a gisaid:Lab ;
+	rdfs:label "Wuhan Institute of Virology, Chinese Academy of Sciences"@en .
+
+gisaid-lab:National_Institute_for_Communicable_Disease_Control_and_Prevention__ICDC__Chinese_Center_for_Disease_Control_and_Prevention__China_CDC_ a gisaid:Lab ;
+	rdfs:label "National Institute for Communicable Disease Control and Prevention (ICDC) Chinese Center for Disease Control and Prevention (China CDC)"@en .
+
+gisaid-lab:Hubei_Provincial_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Hubei Provincial Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Department_of_Microbiology__Guangdong_Provincial_Center_for_Diseases_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention"@en .
+
+gisaid-lab:1__Department_of_Medical_Sciences__Ministry_of_Public_Health__Thailand_2__Thai_Red_Cross_Emerging_Infectious_Diseases_-_Health_Science_Centre_3__Department_of_Disease_Control__Ministry_of_Public_Health__Thailand a gisaid:Lab ;
+	rdfs:label "1. Department of Medical Sciences, Ministry of Public Health, Thailand 2. Thai Red Cross Emerging Infectious Diseases - Health Science Centre 3. Department of Disease Control, Ministry of Public Health, Thailand"@en .
+
+gisaid-lab:Department_of_Microbiology__Zhejiang_Provincial_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Pathogen_Discovery__Respiratory_Viruses_Branch__Division_of_Viral_Diseases__Centers_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Disease Control and Prevention"@en .
+
+gisaid-lab:Division_of_Viral_Diseases__Centers_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Division of Viral Diseases, Centers for Disease Control and Prevention"@en .
+
+gisaid-lab:Li_Ka_Shing_Faculty_of_Medicine__The_University_of_Hong_Kong a gisaid:Lab ;
+	rdfs:label "Li Ka Shing Faculty of Medicine, The University of Hong Kong"@en .
+
+gisaid-lab:Guangdong_Provincial_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Guangdong Provincial Center for Disease Control and Prevention"@en .
+
+gisaid-lab:Guangdong_Provincial_Center_for_Diseases_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Guangdong Provincial Center for Diseases Control and Prevention"@en .
+
+gisaid-lab:National_Reference_Center_for_Viruses_of_Respiratory_Infections__Institut_Pasteur__Paris a gisaid:Lab ;
+	rdfs:label "National Reference Center for Viruses of Respiratory Infections, Institut Pasteur, Paris"@en .
+
+gisaid-lab:State_Key_Laboratory_of_Virology__Wuhan_University a gisaid:Lab ;
+	rdfs:label "State Key Laboratory of Virology, Wuhan University"@en .
+
+gisaid-lab:BGI___Institute_of_Microbiology__Chinese_Academy_of_Sciences___Shandong_First_Medical_University___Shandong_Academy_of_Medical_Sciences___General_Hospital_of_Central_Theater_Command_of_People_s_Liberation_Army_of_China a gisaid:Lab ;
+	rdfs:label "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China"@en .
+
+gisaid-lab:Collaboration_between_the_University_of_Melbourne_at_The_Peter_Doherty_Institute_for_Infection_and_Immunity__and_the_Victorian_Infectious_Disease_Reference_Laboratory a gisaid:Lab ;
+	rdfs:label "Collaboration between the University of Melbourne at The Peter Doherty Institute for Infection and Immunity, and the Victorian Infectious Disease Reference Laboratory"@en .
+
+gisaid-lab:Charite_Universitatsmedizin_Berlin__Institute_of_Virology a gisaid:Lab ;
+	rdfs:label "Charite Universitatsmedizin Berlin, Institute of Virology"@en .
+
+gisaid-lab:Department_of_Virology__University_of_Helsinki_and_Helsinki_University_Hospital__Helsinki__Finland a gisaid:Lab ;
+	rdfs:label "Department of Virology, University of Helsinki and Helsinki University Hospital, Helsinki, Finland"@en .
+
+gisaid-lab:Pathogen_Genomics_Center__National_Institute_of_Infectious_Diseases a gisaid:Lab ;
+	rdfs:label "Pathogen Genomics Center, National Institute of Infectious Diseases"@en .
+
+gisaid-lab:NSW_Health_Pathology_-_Institute_of_Clinical_Pathology_and_Medical_Research._Westmead_Hospital._University_of_Sydney a gisaid:Lab ;
+	rdfs:label "NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney"@en .
+
+gisaid-lab:Public_Health_Virology_Laboratory a gisaid:Lab ;
+	rdfs:label "Public Health Virology Laboratory"@en .
+
+gisaid-lab:Programme_in_Emerging_Infectious_Diseases__Duke-NUS_Medical_School a gisaid:Lab ;
+	rdfs:label "Programme in Emerging Infectious Diseases, Duke-NUS Medical School"@en .
+
+gisaid-lab:Chongqing_Municipal_Center_for_Disease_Control_and_Prevention a gisaid:Lab ;
+	rdfs:label "Chongqing Municipal Center for Disease Control and Prevention"@en .
+
+gisaid-lab:National_Institute_for_Viral_Disease_Control___Prevention__CCDC a gisaid:Lab ;
+	rdfs:label "National Institute for Viral Disease Control & Prevention, CCDC"@en .
+
+gisaid-lab:Microbial_Genomics_Core_Lab__National_Taiwan_University_Centers_of_Genomic_and_Precision_Medicine a gisaid:Lab ;
+	rdfs:label "Microbial Genomics Core Lab, National Taiwan University Centers of Genomic and Precision Medicine"@en .
+
+gisaid-lab:NSW_Health_Pathology_-_Institute_of_Clinical_Pathology_and_Medical_Research._Centre_for_Infectious_Diseases_and_Microbiology_Laboratory_Services._Westmead_Hospital._University_of_Sydney a gisaid:Lab ;
+	rdfs:label "NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Centre for Infectious Diseases and Microbiology Laboratory Services; Westmead Hospital; University of Sydney"@en .
+
+gisaid-lab:Beijing_Genomics_Institute__BGI_ a gisaid:Lab ;
+	rdfs:label "Beijing Genomics Institute (BGI)"@en .
+
+gisaid-lab:The_University_of_Hong_Kong a gisaid:Lab ;
+	rdfs:label "The University of Hong Kong"@en .
+
+gisaid-lab:Laboratory_of_Virology__INMI_Lazzaro_Spallanzani_IRCCS a gisaid:Lab ;
+	rdfs:label "Laboratory of Virology, INMI Lazzaro Spallanzani IRCCS"@en .
+
+gisaid-lab:National_Centre_for_Infectious_Diseases__National_Centre_for_Infectious_Diseases a gisaid:Lab ;
+	rdfs:label "National Centre for Infectious Diseases, National Centre for Infectious Diseases"@en .
+
+gisaid-lab:Laboratoire_Virpath__CIRI_U111__UCBL1__INSERM__CNRS__ENS_Lyon a gisaid:Lab ;
+	rdfs:label "Laboratoire Virpath, CIRI U111, UCBL1, INSERM, CNRS, ENS Lyon"@en .
+
+gisaid-lab:Virology_Unit__Institut_Pasteur_du_Cambodge__Sequencing_done_by__Jessica_E_Manning_Jennifer_A_Bohl_at_Malaria_and_Vector_Research_Research_Laboratory__National_Institute_of_Allergy_and_Infectious_Diseases_and_Vida_Ahyong_from_Chan-Zuckerberg_Biohub_ a gisaid:Lab ;
+	rdfs:label "Virology Unit, Institut Pasteur du Cambodge (Sequencing done by: Jessica E Manning/Jennifer A Bohl at Malaria and Vector Research Research Laboratory, National Institute of Allergy and Infectious Diseases and Vida Ahyong from Chan-Zuckerberg Biohub)"@en .
+
+gisaid-lab:Department_of_Laboratory_Medicine__Lin-Kou_Chang_Gung_Memorial_Hospital__Taoyuan__Taiwan_ a gisaid:Lab ;
+	rdfs:label "Department of Laboratory Medicine, Lin-Kou Chang Gung Memorial Hospital, Taoyuan, Taiwan."@en .
+
+gisaid-lab:Jiangsu_Provincial_Center_for_Disease_Control___Prevention a gisaid:Lab ;
+	rdfs:label "Jiangsu Provincial Center for Disease Control & Prevention"@en .
+
+gisaid-lab:Unit_for_Laboratory_Development_and_Technology_Transfer__Public_Health_Agency_of_Sweden a gisaid:Lab ;
+	rdfs:label "Unit for Laboratory Development and Technology Transfer, Public Health Agency of Sweden"@en .
+
+gisaid-lab:Key_Laboratory_of_Human_Diseases__Comparative_Medicine__Institute_of_Laboratory_Animal_Science a gisaid:Lab ;
+	rdfs:label "Key Laboratory of Human Diseases, Comparative Medicine, Institute of Laboratory Animal Science"@en .
+
+gisaid-lab:School_of_Public_Health__The_University_of_Hon_g_Kong a gisaid:Lab ;
+	rdfs:label "School of Public Health, The University of Hon g Kong"@en .
+
+gisaid-lab:Instituto_Adolfo_Lutz_Interdisciplinary_Procedures_Center_Strategic_Laboratory a gisaid:Lab ;
+	rdfs:label "Instituto Adolfo Lutz Interdisciplinary Procedures Center Strategic Laboratory"@en .
+
+gisaid-lab:Technology_Centre__Guangzhou_Customs a gisaid:Lab ;
+	rdfs:label "Technology Centre, Guangzhou Customs"@en .
+
+gisaid-lab:Takayuki_Hishiki_Kanagawa_Prefectural_Institute_of_Public_Health__Department_of_Microbiology a gisaid:Lab ;
+	rdfs:label "Takayuki Hishiki Kanagawa Prefectural Institute of Public Health, Department of Microbiology"@en .
+
+gisaid-lab:Department_of_Virology_Faculty_of_Medicine__Medicum_University_of_Helsinki a gisaid:Lab ;
+	rdfs:label "Department of Virology Faculty of Medicine, Medicum University of Helsinki"@en .
+
+gisaid-lab:Instituto_de_Diagnostico_y_Referencia_Epidemiologicos__INDRE_ a gisaid:Lab ;
+	rdfs:label "Instituto de Diagnostico y Referencia Epidemiologicos (INDRE)"@en .
+
+gisaid-lab:Virology_Laboratory__Scientific_Department__Army_Medical_Center a gisaid:Lab ;
+	rdfs:label "Virology Laboratory, Scientific Department, Army Medical Center"@en .
+
+gisaid-lab:Ontario_Agency_for_Health_Protection_and_Promotion__OAHPP_ a gisaid:Lab ;
+	rdfs:label "Ontario Agency for Health Protection and Promotion (OAHPP)"@en .
+
+gisaid-lab:National_Microbiology_Laboratory a gisaid:Lab ;
+	rdfs:label "National Microbiology Laboratory"@en .
+
+gisaid-lab:Instituto_Adolfo_Lutz__Interdisciplinary_Procedures_Center__Strategic_Laboratory a gisaid:Lab ;
+	rdfs:label "Instituto Adolfo Lutz, Interdisciplinary Procedures Center, Strategic Laboratory"@en .
+
+gisaid-lab:Institute_of_Medical_Virology__University_of_Zurich a gisaid:Lab ;
+	rdfs:label "Institute of Medical Virology, University of Zurich"@en .
+
+gisaid-lab:MRC-University_of_Glasgow_Centre_for_Virus_Research a gisaid:Lab ;
+	rdfs:label "MRC-University of Glasgow Centre for Virus Research"@en .
+
+gisaid-lab:University_of_Washington_Virology_Lab a gisaid:Lab ;
+	rdfs:label "University of Washington Virology Lab"@en .
+
+gisaid-lab:Institute_of_Environmental_Science_and_Research__ESR_ a gisaid:Lab ;
+	rdfs:label "Institute of Environmental Science and Research (ESR)"@en .
+
+gisaid-lab:Infectious_Disease_Control_Center a gisaid:Lab ;
+	rdfs:label "Infectious Disease Control Center"@en .
+
+gisaid-lab:National_Influenza_Center__Indian_Council_of_Medical_Research_-_National_Institute_of_Virology a gisaid:Lab ;
+	rdfs:label "National Influenza Center, Indian Council of Medical Research - National Institute of Virology"@en .
+
+gisaid-lab:National_Influenza_Center__Indian_Council_of_Medical_Research-National_Institute_of_Virology a gisaid:Lab ;
+	rdfs:label "National Influenza Center, Indian Council of Medical Research-National Institute of Virology"@en .
+
+gisaid-lab:African_Centre_of_Excellence_for_Genomics_of_Infectious_Diseases__ACEGID___Redeemer_s_University__Ede__Osun_State__Nigeria a gisaid:Lab ;
+	rdfs:label "African Centre of Excellence for Genomics of Infectious Diseases (ACEGID), Redeemer's University, Ede, Osun State, Nigeria"@en .
+
+gisaid-lab:Public_Health_Wales_Microbiology_Cardiff a gisaid:Lab ;
+	rdfs:label "Public Health Wales Microbiology Cardiff"@en .
+
+gisaid-lab:Chiu_Laboratory__UCSF-Abbott_Viral_Diagnostics_and_Discovery_Center__University_of_California__San_Francisco a gisaid:Lab ;
+	rdfs:label "Chiu Laboratory, UCSF-Abbott Viral Diagnostics and Discovery Center, University of California, San Francisco"@en .
+
+gisaid-lab:Erasmus_Medical_Center a gisaid:Lab ;
+	rdfs:label "Erasmus Medical Center"@en .
+
+gisaid-lab:Department_of_Virology__Faculty_of_Medicine__University_of_Helsinki__Helsinki__Finland a gisaid:Lab ;
+	rdfs:label "Department of Virology, Faculty of Medicine, University of Helsinki, Helsinki, Finland"@en .
+
+gisaid-lab:Instituto_Nacional_de_Saude__INSA_ a gisaid:Lab ;
+	rdfs:label "Instituto Nacional de Saude (INSA)"@en .
+
+gisaid-lab:Guangdong_Provincial_Institution_of_Public_Health a gisaid:Lab ;
+	rdfs:label "Guangdong Provincial Institution of Public Health"@en .
+
+gisaid-lab:Chiu_Laboratory_UCSF-Abbott_Viral_Diagnostics_and_Discovery_Center_University_of_California__San_Francisco a gisaid:Lab ;
+	rdfs:label "Chiu Laboratory UCSF-Abbott Viral Diagnostics and Discovery Center University of California, San Francisco"@en .
+
+gisaid-lab:Chiu_Laboratory_UCSF-Abbott_Viral_Diagnostics_and_Discovery_Center a gisaid:Lab ;
+	rdfs:label "Chiu Laboratory UCSF-Abbott Viral Diagnostics and Discovery Center"@en .
+
+gisaid-lab:Swiss_National_Reference_Centre_for_Influenza a gisaid:Lab ;
+	rdfs:label "Swiss National Reference Centre for Influenza"@en .
+
+gisaid-lab:Instituto_Adolfo_Lutz__Interdiciplinary_Procedures_Center__Strategic_Laboratory a gisaid:Lab ;
+	rdfs:label "Instituto Adolfo Lutz, Interdiciplinary Procedures Center, Strategic Laboratory"@en .
+
+gisaid-lab:Instituto_Oswaldo_Cruz_FIOCRUZ_-_Laboratory_of_Respiratory_Viruses_and_Measles__LVRS_ a gisaid:Lab ;
+	rdfs:label "Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)"@en .
+
+gisaid-lab:MSHS_Pathogen_Surveillance_Program a gisaid:Lab ;
+	rdfs:label "MSHS Pathogen Surveillance Program"@en .
+
+gisaid-lab:State_Veterinary_Institute_Prague a gisaid:Lab ;
+	rdfs:label "State Veterinary Institute Prague"@en .
+
+gisaid-lab:Sequencing_and_Bioinformatics_Service__Molecular_Epidemiology_Laboratory__FISABIO-Public_Health a gisaid:Lab ;
+	rdfs:label "Sequencing and Bioinformatics Service. Molecular Epidemiology Laboratory. FISABIO-Public Health"@en .
+
+gisaid-lab:Department_of_Infection__Immunity_and_Cardiovascular_Disease__The_Florey_Institute___The_Medical_School__University_of_Sheffield a gisaid:Lab ;
+	rdfs:label "Department of Infection, Immunity and Cardiovascular Disease, The Florey Institute,  The Medical School, University of Sheffield"@en .
+
+gisaid-lab:Key_Laboratory_of_Medical_Molecular_Virology__MOE_NHC_CAMS_ a gisaid:Lab ;
+	rdfs:label "Key Laboratory of Medical Molecular Virology (MOE/NHC/CAMS)"@en .
+
+gisaid-lab:School_of_Public_Health__The_University_of_Hong_Kong a gisaid:Lab ;
+	rdfs:label "School of Public Health, The University of Hong Kong"@en .
+
+gisaid-lab:Instituto_de_Salud_Publica_de_Chile a gisaid:Lab ;
+	rdfs:label "Instituto de Salud Publica de Chile"@en .
+
+gisaid-lab:Sequencing_and_Bioinformatics_Service_and_Molecular_Epidemiology_Research_Group__FISABIO-Public_Health_ a gisaid:Lab ;
+	rdfs:label "Sequencing and Bioinformatics Service and Molecular Epidemiology Research Group. FISABIO-Public Health."@en .
+
+gisaid-lab:Departments_of_Pathology_and_Medicine__New_York_University_School_of_Medicine a gisaid:Lab ;
+	rdfs:label "Departments of Pathology and Medicine, New York University School of Medicine"@en .
+
+gisaid-lab:Pathogen_Sequencing_Lab__National_Institute_for_Biomedical_Research__INRB_ a gisaid:Lab ;
+	rdfs:label "Pathogen Sequencing Lab, National Institute for Biomedical Research (INRB)"@en .
+
+gisaid-lab:The_First_Affiliated_Hospital_of_Guangzhou_Medical_University___BGI-Shenzhen a gisaid:Lab ;
+	rdfs:label "The First Affiliated Hospital of Guangzhou Medical University & BGI-Shenzhen"@en .
+
+gisaid-lab:the_First_Affiliated_Hospital_of_Guangzhou_Medical_University___BGI-Shenzhen a gisaid:Lab ;
+	rdfs:label "the First Affiliated Hospital of Guangzhou Medical University & BGI-Shenzhen"@en .
+
+gisaid-lab:Beijing_Institute_of_Microbiology_and_Epidemiology a gisaid:Lab ;
+	rdfs:label "Beijing Institute of Microbiology and Epidemiology"@en .
+
+gisaid-lab:ViFU a gisaid:Lab ;
+	rdfs:label "ViFU"@en .
+
+gisaid-lab:Statens_Serum_Institute a gisaid:Lab ;
+	rdfs:label "Statens Serum Institute"@en .
+
+gisaid-lab:Department_of_Laboratory_Medicine__Lin-Kou_Chang_Gung_Memorial_Hospital__Taoyuan__Taiwan a gisaid:Lab ;
+	rdfs:label "Department of Laboratory Medicine, Lin-Kou Chang Gung Memorial Hospital, Taoyuan, Taiwan"@en .
+
+gisaid-lab:Department_of_Microbiology__Faculty_of_Medicine__Chinese_University_of_Hong_Kong__Hong_Kong_SAR__China a gisaid:Lab ;
+	rdfs:label "Department of Microbiology, Faculty of Medicine, Chinese University of Hong Kong, Hong Kong SAR, China"@en .
+
+gisaid-lab:National_Research_Center_for_Translational_Medicine__Shanghai___Ruijin_Hospital_affiliated_to_Shanghai_Jiao_Tong_University_School_of_Medicine___Shanghai_Public_Health_Clinical_Center a gisaid:Lab ;
+	rdfs:label "National Research Center for Translational Medicine (Shanghai), Ruijin Hospital affiliated to Shanghai Jiao Tong University School of Medicine & Shanghai Public Health Clinical Center"@en .
+
+gisaid-lab:Victorian_Infectious_Diseases_Reference_Laboratory_and_Microbiological_Diagnostic_Unit_Public_Health_Laboratory__Doherty_Institute a gisaid:Lab ;
+	rdfs:label "Victorian Infectious Diseases Reference Laboratory and Microbiological Diagnostic Unit Public Health Laboratory, Doherty Institute"@en .
+
+gisaid-lab:Grubaugh_Lab_-_Yale_School_of_Public_Health a gisaid:Lab ;
+	rdfs:label "Grubaugh Lab - Yale School of Public Health"@en .
+
+gisaid-lab:Bioinformatics_Research_Group__Szentagothai_Research_Centre__University_of_Pecs a gisaid:Lab ;
+	rdfs:label "Bioinformatics Research Group, Szentagothai Research Centre, University of Pecs"@en .
+
+gisaid-lab:Infectious_Disease_Research_Department__King_Abdullah_International_Medical_Research_Center__KAIMRC_ a gisaid:Lab ;
+	rdfs:label "Infectious Disease Research Department, King Abdullah International Medical Research Center (KAIMRC)"@en .
+
+gisaid-lab:Sequencing_and_Bioinformatics_Service_and_Molecular_Epidemiology_Research_Group__FISABIO-Public_Health a gisaid:Lab ;
+	rdfs:label "Sequencing and Bioinformatics Service and Molecular Epidemiology Research Group. FISABIO-Public Health"@en .
+

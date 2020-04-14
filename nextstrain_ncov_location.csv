@@ -1,0 +1,195 @@
+;Country;AdminDivision;Location
+0;China;Hubei;Wuhan
+14;China;Guangdong;Shenzhen
+18;China;Guangdong;Zhuhai
+20;Thailand;Nonthaburi;Bangkok
+22;China;Zhejiang;Hangzhou
+24;USA;Illinois;Chicago
+25;USA;Washington;Snohomish County
+28;Taiwan;Taiwan;Kaohsiung
+29;USA;California;Los Angeles
+30;USA;California;Orange County
+31;USA;Arizona;Phoenix
+33;China;Guangdong;Guangzhou
+34;China;Guangdong;Foshan
+37;China;Guangdong;
+40;France;Ile de France;Paris
+47;Australia;Victoria;Clayton
+48;Germany;Bavaria;Starnberg
+50;Singapore;Singapore;Singapore
+51;United Kingdom;England;
+53;Finland;Lapland;Rovaniemi
+54;Japan;Aichi;Aichi
+55;South Korea;Gyeonggi;Gyeonggi
+57;Australia;New South Wales;Sydney
+58;Australia;Queensland;Gold Coast
+60;Belgium;Flanders;Leuven
+63;USA;California;
+68;China;Chongqing;Yongchuan
+69;China;Chongqing;Zhongxian
+70;China;Yunnan;Kunming
+71;China;Chongqing;
+72;China;Shandong;Qingdao
+73;China;Sichuan;Chengdu
+74;China;Jiangxi;Pingxiang
+75;China;Jiangsu;Huaian
+76;Taiwan;Taiwan;Taipei
+77;Japan;Tokyo;Tokyo
+80;Vietnam;Thanh Hoa;
+81;Japan;Kyoto;Kyoto
+82;USA;Wisconsin;
+86;USA;Massachusetts;Boston
+88;USA;Illinois;
+90;Nepal;Kathmandu;Kathmandu
+91;France;Auvergne Rhone Alpes;Contamines
+92;Japan;Nara;
+93;Japan;Osaka;
+97;Italy;Lazio;Rome
+105;China;Fujian;
+108;Cambodia;Sihanoukville;
+109;Taiwan;Taiwan;Taoyuan
+112;China;Jiangsu;
+113;Sweden;SmÃ¥land;JÃ¶nkÃ¶ping
+118;USA;Texas;
+120;China;Hong Kong;
+124;USA;California;Solano County
+125;South Korea;Seoul;Seoul
+129;South Korea;Chungcheongnam;Chungcheongnam
+132;Germany;Baden-Wuerttemberg;
+133;Brazil;Sao Paulo;Sao Paulo
+134;Canada;British Columbia;
+137;Japan;Kanagawa;
+140;Finland;Helsinki;
+141;Mexico;Mexico City;
+142;Italy;Lombardy;
+150;China;Hubei;Tianmen
+151;Canada;Ontario;
+154;South Korea;South Korea;
+156;Switzerland;Zurich;
+162;USA;Washington;
+165;United Kingdom;Scotland;
+167;USA;Washington;King County
+170;Japan;Tokyo;
+171;China;Anhui;Suzhou
+174;Germany;North Rhine Westphalia;Heinsberg District
+175;Italy;Lombardy;Milan
+176;New Zealand;Auckland;Auckland
+181;China;Beijing;
+185;India;Kerala;
+187;Nigeria;Lagos;
+188;United Kingdom;Wales;
+190;USA;Grand Princess;Sonoma County
+196;Netherlands;North Brabant;Andel
+197;Netherlands;North Brabant;Berlicum
+198;Netherlands;North Brabant;Blaricum
+199;Netherlands;Drenthe;Dalen
+200;Netherlands;South Holland;Delft
+201;Netherlands;North Holland;Diemen
+202;Netherlands;North Brabant;Eindhoven
+203;Netherlands;North Holland;Haarlem
+204;Netherlands;South Holland;Hardinxveld Giessendam
+205;Netherlands;North Brabant;Helmond
+206;Netherlands;Utrecht;Houten
+207;Netherlands;North Brabant;Loon op zand
+208;Netherlands;North Holland;Naarden
+209;Netherlands;North Brabant;Nieuwendijk
+210;Netherlands;South Holland;Nootdorp
+211;Netherlands;North Brabant;Oss
+212;Netherlands;South Holland;Rotterdam
+214;Netherlands;North Brabant;Tilburg
+216;Netherlands;Utrecht;Utrecht
+218;Netherlands;Flevoland;Zeewolde
+220;Luxembourg;Luxembourg;
+233;Portugal;Portugal;
+281;USA;Grand Princess;San Francisco
+287;Switzerland;Ticino;
+288;Switzerland;Geneva;
+289;Switzerland;Aargau;
+299;Brazil;Sao Paulo;
+305;Switzerland;Basel;
+307;Switzerland;Vaud;
+317;Brazil;Rio de Janeiro;Rio de Janeiro
+325;China;Hubei;Singapore
+329;Netherlands;Gelderland;
+330;Netherlands;Limburg;
+334;Netherlands;North Brabant;
+339;Netherlands;North Holland;
+340;Netherlands;Overijssel;
+341;Netherlands;Utrecht;
+350;Netherlands;South Holland;
+377;USA;New York;
+378;Czech Republic;Usti nad Labem;
+381;Spain;Comunitat Valenciana;Valencia
+386;United Kingdom;England;Yorkshire
+391;Germany;North Rhine Westphalia;Duesseldorf
+394;China;Shanghai;
+398;Germany;Bavaria;Munich
+405;China;Hong Kong;Hong Kong
+442;Chile;Talca;
+444;Chile;Santiago;
+446;Ireland;Dublin;
+447;Ireland;Limerick;
+450;USA;Minnesota;
+453;USA;Washington;Pierce County
+460;USA;Washington;Kirkland
+466;USA;Washington;Seattle
+467;France;Grand Est;Strasbourg
+468;France;Normandie;Rouen
+469;France;Pays de la Loire;Nantes
+470;France;Hauts de France;CrÃ©py en Valois
+471;France;Hauts de France;CompiÃ¨gne
+474;France;Grand Est;Reims
+476;France;Ile de France;Pontoise
+482;USA;New York;Nassau County
+483;Finland;Finland;
+490;Congo;Kinshasa;
+491;USA;California;San Diego County
+498;China;Shandong;
+504;United Kingdom;Northern Ireland;
+506;Brazil;Bahia;Feira de Santana
+507;Brazil;Espirito Santo;Vila Velha
+531;Panama;Panama City;
+532;Belgium;Huldenberg;
+533;Belgium;Kraainem;
+536;Belgium;Sint-Niklaas;
+537;Belgium;Brussels;
+538;Belgium;Leuven;
+540;United Kingdom;Wales;Cardiff
+543;Switzerland;Bern;
+547;Netherlands;Flevoland;
+550;Netherlands;Netherlands;
+612;USA;Utah;
+676;Georgia;Tbilisi;
+680;Denmark;;
+681;Denmark;Copenhagen;
+684;France;Ile de France;
+685;France;Bourgogne-France-ComtÃ©;Montreux-Chateau
+686;France;Bourgogne-France-ComtÃ©;Thise
+696;Switzerland;GraubÃ¼nden;
+700;Switzerland;Schwyz;
+709;Taiwan;Taoyuan;
+725;Brazil;Distrito Federal;Brasilia
+836;Australia;Victoria;Melbourne
+842;USA;Connecticut;
+852;Hungary;Central Hungary;Budapest
+854;Vietnam;Quangning;
+855;Vietnam;Vinhphuc;
+856;Vietnam;Red River Delta;Hanoi
+858;Saudi Arabia;Riyadh;
+884;Kuwait;Kuwait;
+891;Belgium;Holsbeek;
+893;Belgium;Kessel-Lo;
+894;Belgium;Couthuin;
+897;China;Hangzhou;
+912;Poland;Zielonogorskie;
+913;USA;Wisconsin;Dane County
+914;USA;Wisconsin;Dane county
+916;France;Hauts de France;ChÃ¢teau-Thierry
+921;France;Ile de France;Garches
+922;France;Ile de France;Longjumeau
+924;France;Ile de France;Levallois-Perret
+925;France;Bretagne;Rennes
+942;New Zealand;Auckland;
+944;Saudi Arabia;;
+947;Japan;Saitama;
+950;New Zealand;Wellington;

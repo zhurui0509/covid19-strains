@@ -1,0 +1,17 @@
+{
+  "name": "own_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "dependencies": {
+    "csv-parse": "^4.8.5",
+    "graphy": "^4.0.5",
+    "stream-json": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

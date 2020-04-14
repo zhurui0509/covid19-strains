@@ -1,0 +1,199 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix timezone: <https://www.timeanddate.com/worldclock/results.html?query=> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gisaid: <https://stko-gisaid.geog.ucsb.edu/lod/ontology/> .
+@prefix gisaid-strain: <https://stko-gisaid.geog.ucsb.edu/lod/strain/> .
+@prefix gisaid-host: <https://stko-gisaid.geog.ucsb.edu/lod/host/> .
+@prefix gisaid-author: <https://stko-gisaid.geog.ucsb.edu/lod/author/> .
+@prefix gisaid-lab: <https://stko-gisaid.geog.ucsb.edu/lod/lab/> .
+@prefix gisaid-genbankAccession: <https://stko-gisaid.geog.ucsb.edu/lod/genbankAccession/> .
+@prefix gisaid-clade: <https://stko-gisaid.geog.ucsb.edu/lod/clade/> .
+@prefix covid19: <https://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid19-instant: <https://covid.geog.ucsb.edu/lod/instant/> .
+@prefix covid19-city: <https://covid.geog.ucsb.edu/lod/city/> .
+@prefix covid19-region: <https://covid.geog.ucsb.edu/lod/region/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+gisaid-genbankAccession:MT019529 a gisaid:GenbankAccession ;
+	rdfs:label "MT019529"@en .
+
+gisaid-genbankAccession:MN996528 a gisaid:GenbankAccession ;
+	rdfs:label "MN996528"@en .
+
+gisaid-genbankAccession:MN908947 a gisaid:GenbankAccession ;
+	rdfs:label "MN908947"@en .
+
+gisaid-genbankAccession:MN996527 a gisaid:GenbankAccession ;
+	rdfs:label "MN996527"@en .
+
+gisaid-genbankAccession:MN996529 a gisaid:GenbankAccession ;
+	rdfs:label "MN996529"@en .
+
+gisaid-genbankAccession:MN996530 a gisaid:GenbankAccession ;
+	rdfs:label "MN996530"@en .
+
+gisaid-genbankAccession:MN996531 a gisaid:GenbankAccession ;
+	rdfs:label "MN996531"@en .
+
+gisaid-genbankAccession:MT019532 a gisaid:GenbankAccession ;
+	rdfs:label "MT019532"@en .
+
+gisaid-genbankAccession:MT019531 a gisaid:GenbankAccession ;
+	rdfs:label "MT019531"@en .
+
+gisaid-genbankAccession:MT019530 a gisaid:GenbankAccession ;
+	rdfs:label "MT019530"@en .
+
+gisaid-genbankAccession:MN988713 a gisaid:GenbankAccession ;
+	rdfs:label "MN988713"@en .
+
+gisaid-genbankAccession:MN985325 a gisaid:GenbankAccession ;
+	rdfs:label "MN985325"@en .
+
+gisaid-genbankAccession:MN975262 a gisaid:GenbankAccession ;
+	rdfs:label "MN975262"@en .
+
+gisaid-genbankAccession:MN938384 a gisaid:GenbankAccession ;
+	rdfs:label "MN938384"@en .
+
+gisaid-genbankAccession:MN994467 a gisaid:GenbankAccession ;
+	rdfs:label "MN994467"@en .
+
+gisaid-genbankAccession:MN994468 a gisaid:GenbankAccession ;
+	rdfs:label "MN994468"@en .
+
+gisaid-genbankAccession:MN997409 a gisaid:GenbankAccession ;
+	rdfs:label "MN997409"@en .
+
+gisaid-genbankAccession:MN988668 a gisaid:GenbankAccession ;
+	rdfs:label "MN988668"@en .
+
+gisaid-genbankAccession:MN988669 a gisaid:GenbankAccession ;
+	rdfs:label "MN988669"@en .
+
+gisaid-genbankAccession:LR757998 a gisaid:GenbankAccession ;
+	rdfs:label "LR757998"@en .
+
+gisaid-genbankAccession:LR757996 a gisaid:GenbankAccession ;
+	rdfs:label "LR757996"@en .
+
+gisaid-genbankAccession:LR757995 a gisaid:GenbankAccession ;
+	rdfs:label "LR757995"@en .
+
+gisaid-genbankAccession:MT007544 a gisaid:GenbankAccession ;
+	rdfs:label "MT007544"@en .
+
+gisaid-genbankAccession:MT039873 a gisaid:GenbankAccession ;
+	rdfs:label "MT039873"@en .
+
+gisaid-genbankAccession:MT020781 a gisaid:GenbankAccession ;
+	rdfs:label "MT020781"@en .
+
+gisaid-genbankAccession:LC521925 a gisaid:GenbankAccession ;
+	rdfs:label "LC521925"@en .
+
+gisaid-genbankAccession:MT027062 a gisaid:GenbankAccession ;
+	rdfs:label "MT027062"@en .
+
+gisaid-genbankAccession:MT027063 a gisaid:GenbankAccession ;
+	rdfs:label "MT027063"@en .
+
+gisaid-genbankAccession:MT027064 a gisaid:GenbankAccession ;
+	rdfs:label "MT027064"@en .
+
+gisaid-genbankAccession:MT049951 a gisaid:GenbankAccession ;
+	rdfs:label "MT049951"@en .
+
+gisaid-genbankAccession:MT066175 a gisaid:GenbankAccession ;
+	rdfs:label "MT066175"@en .
+
+gisaid-genbankAccession:LC522973 a gisaid:GenbankAccession ;
+	rdfs:label "LC522973"@en .
+
+gisaid-genbankAccession:LC522974 a gisaid:GenbankAccession ;
+	rdfs:label "LC522974"@en .
+
+gisaid-genbankAccession:LC522975 a gisaid:GenbankAccession ;
+	rdfs:label "LC522975"@en .
+
+gisaid-genbankAccession:LC522972 a gisaid:GenbankAccession ;
+	rdfs:label "LC522972"@en .
+
+gisaid-genbankAccession:MT039887 a gisaid:GenbankAccession ;
+	rdfs:label "MT039887"@en .
+
+gisaid-genbankAccession:MT039888 a gisaid:GenbankAccession ;
+	rdfs:label "MT039888"@en .
+
+gisaid-genbankAccession:MT044258 a gisaid:GenbankAccession ;
+	rdfs:label "MT044258"@en .
+
+gisaid-genbankAccession:MT044257 a gisaid:GenbankAccession ;
+	rdfs:label "MT044257"@en .
+
+gisaid-genbankAccession:MT066176 a gisaid:GenbankAccession ;
+	rdfs:label "MT066176"@en .
+
+gisaid-genbankAccession:MT072688 a gisaid:GenbankAccession ;
+	rdfs:label "MT072688"@en .
+
+gisaid-genbankAccession:MT093571 a gisaid:GenbankAccession ;
+	rdfs:label "MT093571"@en .
+
+gisaid-genbankAccession:MT106052 a gisaid:GenbankAccession ;
+	rdfs:label "MT106052"@en .
+
+gisaid-genbankAccession:MT106053 a gisaid:GenbankAccession ;
+	rdfs:label "MT106053"@en .
+
+gisaid-genbankAccession:MT106054 a gisaid:GenbankAccession ;
+	rdfs:label "MT106054"@en .
+
+gisaid-genbankAccession:MT093631 a gisaid:GenbankAccession ;
+	rdfs:label "MT093631"@en .
+
+gisaid-genbankAccession:MT118835 a gisaid:GenbankAccession ;
+	rdfs:label "MT118835"@en .
+
+gisaid-genbankAccession:MT126808 a gisaid:GenbankAccession ;
+	rdfs:label "MT126808"@en .
+
+gisaid-genbankAccession:MT163716 a gisaid:GenbankAccession ;
+	rdfs:label "MT163716"@en .
+
+gisaid-genbankAccession:MT163717 a gisaid:GenbankAccession ;
+	rdfs:label "MT163717"@en .
+
+gisaid-genbankAccession:MT163718 a gisaid:GenbankAccession ;
+	rdfs:label "MT163718"@en .
+
+gisaid-genbankAccession:MT163719 a gisaid:GenbankAccession ;
+	rdfs:label "MT163719"@en .
+
+gisaid-genbankAccession:MT198653 a gisaid:GenbankAccession ;
+	rdfs:label "MT198653"@en .
+
+gisaid-genbankAccession:MT198651 a gisaid:GenbankAccession ;
+	rdfs:label "MT198651"@en .
+
+gisaid-genbankAccession:MT121215 a gisaid:GenbankAccession ;
+	rdfs:label "MT121215"@en .
+
+gisaid-genbankAccession:MT188340 a gisaid:GenbankAccession ;
+	rdfs:label "MT188340"@en .
+
+gisaid-genbankAccession:MT188339 a gisaid:GenbankAccession ;
+	rdfs:label "MT188339"@en .
+
+gisaid-genbankAccession:MT198652 a gisaid:GenbankAccession ;
+	rdfs:label "MT198652"@en .
+
+gisaid-genbankAccession:MT192765 a gisaid:GenbankAccession ;
+	rdfs:label "MT192765"@en .
+
